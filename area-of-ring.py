@@ -1,7 +1,5 @@
-PI = 3.14
-
 def areaOfDisk(r):
-    return PI * r * r
+    return 3.14 * r * r
 
 def areaOfRing(outer, inner):
     return areaOfDisk(outer) - areaOfDisk(inner)
