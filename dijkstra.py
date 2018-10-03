@@ -35,7 +35,7 @@ if __name__ == "__main__":
         ("F", "G", 11)
     ]
 
-    print "=== Dijkstra ==="
+    print " Dijkstra "
     print edges
     print "A -> E:"
     print dijkstra(edges, "A", "E")

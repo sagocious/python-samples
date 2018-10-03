@@ -1,9 +1,9 @@
-def fib_recursive(n):
+def fibonacchi_recursive(n):
     if n == 0:
         return 0
     elif n == 1:
         return 1
     else:
-        return fib_recursive(n-1) + fib_recursive(n-2)
+        return fibonacchi_recursive(n-1) + fibonacchi_recursive(n-2)
 
-print(fib_recursive(3))
+print(fibonacchi_recursive(3))
