@@ -51,9 +51,7 @@ class Graph:
     def __iter__(self):
         return iter(self.vertList.values())
 
-
-
-#~ TESTING
+# TESTING
 g = Graph()
 for i in range(6):
     g.addVertex(i)
