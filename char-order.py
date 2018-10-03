@@ -16,7 +16,7 @@ def allAlpha(s):
 			return False
 	return True
 	
-text = raw_input("ENTER TEXT: ")
+text = raw_input("Enter Text: ")
 
 if allAlpha(text):
 	if inAscOrder(text.upper()):
