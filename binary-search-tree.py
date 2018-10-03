@@ -18,8 +18,6 @@ class Node:
             else:
                 self.right.insert(val)
 
-                
-
 def preorderTrav(node):
     if node is not None:
         print(node.data)
@@ -56,5 +54,6 @@ t.insert(2)
 t.insert(15)
 t.insert(5)
 preorderTrav(t)
+print("\n")
 print("\n")
 breathFirstTrav(t)
